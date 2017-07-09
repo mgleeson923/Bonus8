@@ -35,6 +35,8 @@ public class Bonus8 {
             Movies list = new Movies();
 
 
+
+
             for (Movies m : list.listOfMovies()) {
                 if (userInput.equalsIgnoreCase(m.getCategory())) {
                     System.out.println(m);
@@ -42,12 +44,13 @@ public class Bonus8 {
 
             }
 
+            System.out.println();
             System.out.print("Would you like to look at another category of films? Y/N: ");
             repeat = scnr.nextLine();
             System.out.println();
 
             while (!repeat.equalsIgnoreCase("Y") && (!repeat.equalsIgnoreCase("N"))) {
-                System.out.print("Invalid Input. Check another player's stats? Y/N: ");
+                System.out.print("Invalid Input. Would you like to view another movie database? Y/N: ");
                 repeat = scnr.nextLine();
                 System.out.println();
             }
