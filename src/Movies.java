@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * Created by michaelgleeson on 7/7/17.
@@ -72,7 +73,6 @@ public class Movies {
         list.add(new Movies("Die Hard", "action"));
         list.add(new Movies("Rambo", "action"));
         list.add(new Movies("The Boondock Saints", "action"));
-
 
         return list;
     }
